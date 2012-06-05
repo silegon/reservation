@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>点餐记录</title>
+        <script language="javaScript" type="text/javascript" src="/static/js/datepicker/WdatePicker.js"></script>
+        <link rel="stylesheet" type="text/css" href="/static/css/records.css"/> 
+</head>
+<body>
+    <h1>游易订餐记录</h1>
+<div class="left">
+    <div class="account_info">
+        <p>账号:{{account.username}}   <a id="logout" href="/logout">退出</a></p>
+        <p>真实姓名:{{account.real_name}}</p>
+        <p>余额:{{account.balance}}元</p>
+        <p>{{date|date:"Y-m-d"}}</p>
+        <a href="/">返回菜单</a>
+    </div>
+    <div class="browse_records">
+        <p>获取指定日期前30天的记录:</p>
+        <form action="" method="POST">
+            <p><input class="Wdate" name="date" type="text" onfocus="WdatePicker({firstDayOfWeek:1})" value="{{date|date:'Y-m-d'}}"/></p>
+            <p><input type="submit" value="确认"></p>
+            {% csrf_token %}
+        </form>
+    </div>
+</div>
+
+<div class="info">
+    <div class="order_list">
+        <h1>订餐完成记录</h1>
+        <ul>
+            {% for order in order_finished %}
+            <li id="order_{{order.pk}}_{{order.date|date:'Y-m-d'}}_{{order.character}}">
+            {{order.restaurant}} {{order.food}} {{order.price}}元 </br>
+            {% if order.remark %}
+            <b>备注:{{order.remark}}</b></br>
+            {% endif %}
+            {{order.date|date:"Y-n-j"}} {{order.dish_character}}
+            </li>
+            </br>
+            {% endfor %}
+
+        </ul>
+    </div>
+    <div class="pay_list">
+        <h1>扣费记录</h1>
+        <ul>
+            {% for pay in pay_list %}
+            <li id="pay_{{pay.pk}}">
+            {{pay.date|date:"Y-m-d"}} {{pay.dish_character}}   扣费 {{pay.bill}} 元
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+</body>
+</html>

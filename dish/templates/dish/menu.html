@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+        <meta http-equiv="refresh" content="300; url=\process_order">
+	<title>菜单</title>
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" href="/static/css/menu.css">
+        <script type="text/javascript" src="/static/js/jquery.js"></script>
+        <script type="text/javascript" src="/static/js/dish.js"></script>
+        <script language="javaScript" type="text/javascript" src="/static/js/datepicker/WdatePicker.js"></script>
+</head>
+<body>
+    <div class="main_title">
+        <h1>游易点餐系统</h1>
+    </div>
+    <div class="left">
+        <div class="account_info">
+            <p>账号:{{account.username}}   <a id="logout" href="/logout">退出</a></p>
+            <p>真实姓名:{{account.real_name}}</p>
+            <p>余额:{{account.balance}}元</p>
+            <p>{{date|date:"Y-m-d"}}</p>
+            <a href="/records">点餐记录</a>
+        </div>
+        <div class="order_confirm">
+            <p><input class="Wdate" type="text" name="Wdate" onfocus="WdatePicker({firstDayOfWeek:1})" value="{{date|date:'Y-m-d'}}"/>
+                <select class="dish_character">
+                    <option value="l" {% if dish_character == 'l' %}selected="selected"{%endif%}>中餐</option>
+                    <option value="d" {% if dish_character == 'd' %}selected="selected"{%endif%}>晚餐</option>
+                </select>
+            </p>
+            <p><label for="remark">备注</label><input type="text" name="remark" id="order_remark" /></input></p>
+            <p><input type="submit" value="确认" onclick="submit_order()"></p>
+        </div>
+        <div class="order_confirmed">
+            <span class="s_title">确认的食物</span>
+            <ul>
+                {% for order in order_confirmed %}
+                <li id="order_{{order.pk}}_{{order.date|date:'Y-m-d'}}_{{order.character}}">
+                {{order.restaurant}} {{order.food}} {{order.price}}元 </br>
+                {% if order.remark %}
+                <b class="display_remark">备注:{{order.remark}}</b></br>
+                {% endif %}
+                {{order.date|date:"Y-n-j"}} {{order.dish_character}}
+                </li>
+                </br>
+                {% endfor %}
+
+            </ul>
+        </div>
+
+        <div class="order_booked">
+            <span class="s_title">预订的食物</span>
+            <ul>
+                {% for order in order_booked %}
+                <li id="order_{{order.pk}}_{{order.date|date:'Y-m-d'}}_{{order.character}}">
+                {{order.restaurant}} {{order.food}} {{order.price}}元 </br>
+                {% if order.remark %}
+                <b class="display_remark">备注:{{order.remark}}</b>
+                {% endif %}
+                {{order.date|date:"Y-n-j"}} {{order.dish_character}}
+                </li>
+                </br>
+                {% endfor %}
+
+            </ul>
+        </div>
+    </div>
+    <div class="right">
+        <div class="restaurant">
+            <ul class="restaurant_list">
+                {% for restaurant in restaurantes %}
+                <li id="r_{{restaurant.pk}}">{{restaurant.name}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="menu">
+            <ul class="menu_list">
+                <li>请先选择上面的外卖商</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

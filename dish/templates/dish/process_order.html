@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>处理订单</title>
+        <link rel="stylesheet" type="text/css" href="/static/css/process_order.css" />
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <script type="text/javascript" src="/static/js/jquery.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.masonry.min.js"></script>
+        <script type="text/javascript" src="/static/js/dish.js"></script>
+        <script language="javaScript" type="text/javascript" src="/static/js/datepicker/WdatePicker.js"></script>
+</head>
+<body>
+<h1 class="main_title">游易点餐订单处理</h1>
+<div class="control">
+    <div class="dc">
+        <form action="" method="POST">
+        <label for="dish_date">订单日期</label><input class="Wdate" id="date" type="text" name="Wdate" value='{{date}}' onfocus="WdatePicker({firstDayOfWeek:1})"/>
+        <select id="dish_character" name="dish_character">
+            <option value="l" {% if dish_character == 'l' %}selected="selected"{%endif%}>中餐</option>
+            <option value="d" {% if dish_character == 'd' %}selected="selected"{%endif%}>晚餐</option>
+        </select>
+            <input type="submit" value="获取"/>
+            {% csrf_token %}
+        </form>
+    </div>
+    <h1>{{date}}  {% if dish_character == 'l' %}午餐{% endif %}{% if dish_character == 'd' %}晚餐{% endif %} 订单处理
+    </h1>
+    {% if extra_book %}
+    <div class="extra_book">
+        <p><span>额外的点餐</span>
+        <ul class="extra_book_people">
+            {% for real_name in extra_book %}
+            <li>{{real_name}}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+    {% if not_book %}
+    <div class="not_book">
+        <p><span>未点餐:</span>
+        <ul class="not_book_people">
+            {% for real_name in not_book %}
+            <li>{{real_name}}</li>
+            {% endfor %}
+        </ul>
+        </p>
+    </div>
+    {% endif %}
+    <div class="assistant_book">
+        <label for="name">协助点餐:</label><input id="not_book_name" type="text"><input type="submit" onclick="avatar();" value="跳转">
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="order_district">
+    <div class="sub_district">
+        <h1>预订的订单</h1>
+        <div class="booked_order"> 
+            {% if booked_order %}
+            {% regroup booked_order by restaurant as order_list %}
+            {% for order in order_list %}
+            <div class="order_r">
+                <div class="restaurant_info">
+                    <span class="restaurant_title">{{order.grouper}}</span>
+                </div>
+                <ul class="order_list">
+                    {% for item in order.list %}
+                    <li class="order_item" id="order_{{item.pk}}_{{item.status}}"><span class="account_name">{{item.username}}</span><span class="food_name">{{item.food_name}}</span><span class="food_price">{{item.price}}元</span>
+                    {% if item.remark %}
+                    </br><b class="display_remark">备注:{{item.remark}}</b>
+                    {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+                    <input type="submit" value="确认" class="confirm_order" onclick="confirm_order(this)">
+                    <span class="total_price"></span>
+            </div>
+            {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="sub_district">
+        <h1>确认的订单</h1>
+        <div class="confirmed_order"> 
+            {% if confirmed_order %}
+            {% regroup confirmed_order by restaurant as order_list %}
+            {% for order in order_list %}
+            <div class="order_r">
+                <div class="restaurant_info">
+                    <span class="restaurant_title">{{order.grouper}}</span>
+                </div>
+                <ul class="order_list">
+                    {% for item in order.list %}
+                    <li class="order_item" id="order_{{item.pk}}_{{item.status}}"><span class="account_name">{{item.username}}</span><span class="food_name">{{item.food_name}}</span><span class="food_price">{{item.price}}元</span>
+                    {% if item.remark %}
+                    </br><b class="display_remark">备注:{{item.remark}}</b>
+                    {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+                    <input type="submit" value="完成" class="finish_order" onclick="finish_order(this)">
+                    <span class="total_price"></span>
+            </div>
+            {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="buttom_district">
+        <h1>完成的订单</h1>
+        <div class="finished_order"> 
+            {% if finished_order %}
+            {% regroup finished_order by restaurant as order_list %}
+            {% for order in order_list %}
+            <div class="order_r">
+                <div class="restaurant_info">
+                    <span class="restaurant_title">{{order.grouper}}</span>
+                </div>
+                <ul class="order_list">
+                    {% for item in order.list %}
+                    <li class="order_item" id="order_{{item.pk}}_{{item.status}}"><span class="account_name">{{item.username}}</span><span class="food_name">{{item.food_name}}</span><span class="food_price">{{item.price}}元</span>
+                    {% if item.remark %}
+                    </br><b class="display_remark">备注:{{item.remark}}</b>
+                    {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+                    <input type="hidden" value="完成" class="" >
+                    <span class="total_price"></span>
+            </div>
+            {% endfor %}
+            <div class="clear"></div>
+            {% endif %}
+        </div>
+</div>
+
+</body>
+</html>

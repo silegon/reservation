@@ -1,0 +1,43 @@
+body {
+    margin:0 auto;
+    width:960px;
+}
+body h1{
+    text-align:center;
+}
+li{
+    list-style:none;
+}
+#logout{
+    float:right;
+    margin-right:10px;
+}
+.account_info{
+    width:218px;
+    border:1px solid gray;
+    padding:10px;
+    margin:10px;
+}
+.browse_records{
+    width:218px;
+    border:1px solid gray;
+    padding:10px;
+    margin:10px;
+}
+.left{
+    float:left;
+}
+.order_list{
+    width:298px;
+    float:left;
+    display:block;
+    border:1px solid gray;
+    margin:10px;
+}
+.pay_list{
+    width:298px;
+    float:left;
+    display:block;
+    border:1px solid gray;
+    margin:10px;
+}

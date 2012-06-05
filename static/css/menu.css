@@ -1,0 +1,136 @@
+body {
+    margin:0 auto;
+    width:960px;
+}
+div {
+    display:block;
+}
+ul {
+    position:relative;
+    left:-38px;
+    width:600px;
+}
+li {
+    list-style:none;
+}
+.clear{
+    clear:both;
+}
+
+#logout{
+    float:right;
+    margin-right:10px;
+}
+.left { 
+    width:298px;
+    float:left;
+}
+
+.right {
+    width:618px;
+    float:left;
+}
+.restaurant {
+    width:620px;
+    margin:10px 10px 10px 0;
+    display:block;
+    border:1px solid gray;
+    float:left;
+}
+.restaurant li{
+    display:block;
+    height:27px;
+    text-align:center;
+    padding:5px 10px 1px 10px;
+    margin:0 10px 10px 10px;
+    float:left;
+    background:#fff;
+}
+.restaurant_list li.active {
+    padding-left:10px;
+    background:#ccc;
+}
+.restaurant li:hover {
+    padding:4px 9px 0 9px;
+    border:1px solid #ccc;
+}
+.menu{
+    width:620px;
+    border:1px solid gray;
+    float:left;
+    padding-bottom:15px;
+}
+.menu_list li {
+    display:block;
+    width:178px;
+    margin:0 10px;
+    float:left;
+}
+.menu_list li span.price{
+    float:right;
+}
+.menu_list li:hover {
+    display:block;
+    background:#ccc;
+}
+.menu_list li.active {
+    display:block;
+    background:#ccc;
+}
+.order_restaurant {
+    margin:0 10px 0 10px;
+}
+.order_food{
+    margin:0 10px 0 10px;
+}
+.order_price{
+    margin-left:10px;
+}
+li.order_new {
+    background:#b6ff47;
+    line-height:1.2em;
+    display:block;
+}
+.s_title{
+    font-size:1.5em;
+    text-align:center;
+}
+.account_info {
+    padding:10px;
+    height:195px;
+    margin:10px;
+    border:1px solid gray;
+}
+.order_confirm {
+    padding:10px;
+    height:180px;
+    margin:10px;
+    border:1px solid gray;
+}
+.order_confirmed {
+    padding:10px;
+    margin:10px;
+    border:1px solid gray;
+}
+.order_booked {
+    padding:10px;
+    margin:10px;
+    border:1px solid gray;
+}
+.main_title h1{
+    text-align:center;
+}
+.display_remark {
+    width:240px;
+    display:block;
+    font-size:0.8em;
+}
+#new_food{
+    clear:both;
+    border:1px solid gray;
+    padding:10px;
+    margin:10px;
+}
+#new_food_price{
+    width:50px;
+}

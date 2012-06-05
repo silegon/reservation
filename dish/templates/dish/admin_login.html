@@ -1,0 +1,32 @@
+<!DOCTYPE HTML> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>游易食物预订</title>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+    </head>
+    <body class="login">
+        <!-- Container -->
+        <div id="container">
+            <!-- Header -->
+            <div id="header">
+                <div id="branding">
+                    <h1 id="site-name">管理员登陆</h1>
+                </div>
+            </div>
+            <!-- END Header -->
+            <!-- Content -->
+            <div id="content" class="colM">
+                <div id="content-main">
+                    <form action="" method="post" id="login-form">
+                    {{ form.as_p }}
+                    {% csrf_token %}
+                        <input type="submit" value="登陆" /></br>
+                    </form>
+                </div>
+            </div>
+            <!-- END Content -->
+        </div>
+        <!-- END Container -->
+    </body>
+</html>

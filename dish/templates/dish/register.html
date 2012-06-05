@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>账号注册</title>
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <script type="text/javascript" src="/static/js/jquery.js"></script>
+        <script type="text/javascript" src="/static/js/dish.js" charset="utf-8"></script>
+</head>
+<body>
+    <form class="reg_form" action="" method="POST">
+        <p>
+        <label for="login_name">用户名</label><input type="text" id="login_name" name="login_name">
+        </p>
+        <p>
+        <label for="real_name">真实姓名</label><input type="text" id="real_name" name="real_name"/>
+        </p>
+        <p>
+        <label for="login_password">密码</label><input type="password" id="login_password" name="login_password">
+        </p>
+        <p>
+        <label for="confirm_password">确认密码</label><input type="password" id="confirm_password" name="confirm_password">
+        </p>
+        <p>
+        <div id="msg" style="color:red;"><div>
+        <input type="BUTTON" value="确认" onclick="reg_check()">
+        </p>
+        {% csrf_token %}
+    </form>	
+</body>
+</html>

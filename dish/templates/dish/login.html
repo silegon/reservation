@@ -1,0 +1,41 @@
+<!DOCTYPE HTML> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>游易食物预订</title>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body class="login">
+        <!-- Container -->
+        <div id="container">
+            <!-- Header -->
+            <div id="header">
+                <div id="branding">
+                    <h1 id="site-name">用户登陆</h1>
+                </div>
+            </div>
+            <!-- END Header -->
+            <!-- Content -->
+            <div id="content" class="colM">
+                <div id="content-main">
+                    <form action="" method="post" id="login-form">
+                    {{ form.as_p }}
+                    {% csrf_token %}
+                        <input type="submit" value="登陆" /></br>
+                    </form>
+                    <h2 style="color:red">由于兼容原因，目前仅支持<a href="https://www.google.com/chrome">Chrome<a>浏览器</h2>
+                        <p><a href="/static/html/user_help.html">用户使用说明</a></p>
+                        <p><a href="/static/html/admin_help.html">管理员使用说明</a></p>
+                        <p><a href="/register">用户账号注册</a></p>
+                        <p><a href="/process_order" target="_blank">管理前台</a></p>
+                        <p><a href="/admin" target="_blank">管理后台</a></p>
+                </div>
+            </div>
+            <!-- END Content -->
+        </div>
+        <!-- END Container -->
+    </body>
+</html>

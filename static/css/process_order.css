@@ -1,0 +1,129 @@
+body{
+    width:960px;
+    margin:0 auto;
+}
+.control{
+    width:938px;
+    border:1px solid gray;
+    margin:10px;
+    padding:10px;
+    float:right;
+}
+body h1.main_title{
+    text-align:center;
+}
+div.assistant_book{
+    float:right;
+}
+ul.order_list {
+    list-style:none;
+}
+.assistant_book {
+    font-size:1.2em;
+}
+.order_district {
+    border:1px solid gray;
+    float:left;
+    position:relative;
+    left:-10px;
+}
+.sub_district {
+    width:437px;
+    margin:10px;
+    padding:10px;
+    border:1px solid gray;
+    float:left;
+}
+.sub_district h1{
+    text-align:center;
+}
+.clear{
+    clear:both;
+}
+.account_name {
+    width:75px;
+    display:inline-block;
+}
+.food_name {
+    width:180px;
+    display:inline-block;
+}
+.food_price {
+    width:50px;
+    display:inline-block;
+}
+.display_remark {
+    font-size:0.8em;
+    margin-left:25px;
+    width:275px;
+    display:block;
+}
+.restaurant_title{
+    font-size:1.2em;
+}
+.restaurant_info{
+    margin-top:30px;
+}
+.total_submit{
+    margin-left:37px;
+    width:85px;
+    display:inline-block;
+}
+li.order_item a{
+    margin-left:35px;
+}
+.not_book span{
+    font-size:1.5em;
+    color:red;
+}
+ul.not_book_people li{
+    list-style:none;
+    background:#00e874;
+    font-size:1.5em;
+    margin:0 5px;
+    display:inline-block;
+}
+ul.not_book_people li:hover {
+    background:#fff;
+}
+.extra_book span{
+    font-size:1.3em;
+    color:green;
+}
+ul.extra_book_people li{
+    list-style:none;
+    margin:0 5px;
+    display:inline-block;
+}
+ul.extra_book_people li:hover {
+    background:#fff;
+}
+.confirm_order {
+    margin-left:30px;
+}
+.finish_order {
+    margin-left:30px;
+}
+.buttom_district {
+    border:1px solid gray;
+    margin:10px;
+    position:relative;
+    width:958px;
+    left:-20px;
+}
+.buttom_district > h1 {
+    text-align:center;
+}
+div.finished_order > div.order_r{
+    width:437px;
+    margin:10px;
+    padding:10px;
+    float:left;
+    border:1px solid gray;
+}
+.total_price {
+    margin-left:181px;
+}
+div.finished_order > div.order_r > span.total_price {
+    margin-left:260px;
+}

@@ -1,0 +1,251 @@
+INFO 2011-12-27 14:16:23,970 views 15823 -1228285072 []
+INFO 2011-12-27 14:29:25,750 views 15927 -1229468816 []
+INFO 2011-12-27 14:32:17,859 views 15927 -1229468816 [{'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u83dc\u82b1\u7092\u54b8\u8089\u996d', 'price': 9.0, 'restaurant': u'\u84b8\u4e4b\u5473tel:85665753', 'pk': 224L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u571f\u8c46\u70e7\u8169\u8089\u996d', 'price': 9.0, 'restaurant': u'\u84b8\u4e4b\u5473tel:85665753', 'pk': 223L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u5241\u6912\u9c7c\u8169\u996d', 'price': 10.0, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 226L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u9ed1\u6912\u725b\u67f3\u996d', 'price': 15.0, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 227L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u7206\u7092\u7530\u9e21\u996d', 'price': 15.0, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 228L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u6d4b\u8bd5\u4ec0\u4e48\u996d', 'price': 1.999, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 229L}]
+INFO 2011-12-27 14:32:38,410 views 15927 -1229468816 [{'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u5241\u6912\u9c7c\u8169\u996d', 'price': 10.0, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 226L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u9ed1\u6912\u725b\u67f3\u996d', 'price': 15.0, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 227L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u7206\u7092\u7530\u9e21\u996d', 'price': 15.0, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 228L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u6d4b\u8bd5\u4ec0\u4e48\u996d', 'price': 1.999, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 229L}]
+INFO 2011-12-27 18:00:23,009 views 16603 -1229374608 [{'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u5241\u6912\u9c7c\u8169\u996d', 'price': 10.0, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 226L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u9ed1\u6912\u725b\u67f3\u996d', 'price': 15.0, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 227L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u7206\u7092\u7530\u9e21\u996d', 'price': 15.0, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 228L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u767d\u5207\u9e21\u996d', 'price': 13.0, 'restaurant': u'\u795e\u53a8\u56e2\u81b3tel:85573143', 'pk': 231L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u9ebb\u8fa3\u725b\u5c55\u996d', 'price': 13.0, 'restaurant': u'\u795e\u53a8\u56e2\u81b3tel:85573143', 'pk': 230L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u6d4b\u8bd5\u4ec0\u4e48\u996d', 'price': 1.999, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 229L}]
+INFO 2011-12-27 18:01:48,519 views 16603 -1229374608 [{'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u5241\u6912\u9c7c\u8169\u996d', 'price': 10.0, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 226L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u9ed1\u6912\u725b\u67f3\u996d', 'price': 15.0, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 227L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u7206\u7092\u7530\u9e21\u996d', 'price': 15.0, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 228L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u767d\u5207\u9e21\u996d', 'price': 13.0, 'restaurant': u'\u795e\u53a8\u56e2\u81b3tel:85573143', 'pk': 231L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u9ebb\u8fa3\u725b\u5c55\u996d', 'price': 13.0, 'restaurant': u'\u795e\u53a8\u56e2\u81b3tel:85573143', 'pk': 230L}]
+INFO 2011-12-27 18:02:13,720 views 16603 -1229374608 []
+INFO 2011-12-28 10:11:32,509 views 15908 -1228051600 []
+INFO 2011-12-28 14:20:46,420 models 16511 -1228092560 [{'date': datetime.date(2011, 12, 27)}]
+INFO 2011-12-28 14:24:35,819 models 16511 -1228092560 [{'date': datetime.date(2011, 12, 27)}]
+INFO 2011-12-28 14:25:36,259 models 16511 -1228092560 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 14:32:09,750 models 16560 -1229661328 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 14:32:30,710 models 16564 -1229235344 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 14:34:14,740 models 16572 -1229452432 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 14:36:05,990 models 16576 -1229563024 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 14:38:16,579 models 16588 -1229116560 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 14:45:17,750 models 16631 -1227981968 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 14:46:44,339 models 16635 -1228960912 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 14:48:14,509 models 16635 -1228960912 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 14:48:55,410 models 16635 -1228960912 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 14:58:54,480 models 16672 -1228162192 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 14:59:11,880 models 16678 -1229661328 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 15:00:35,970 models 16698 -1229333648 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 15:00:36,079 models 16698 -1229333648 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 15:00:36,220 views 16698 -1229333648 []
+INFO 2011-12-28 15:00:53,089 models 16698 -1229333648 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 15:00:53,190 models 16698 -1229333648 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 15:00:53,349 views 16698 -1229333648 []
+INFO 2011-12-28 15:08:16,140 models 16834 -1228092560 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 15:08:16,240 models 16834 -1228092560 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 15:08:16,390 views 16834 -1228092560 []
+INFO 2011-12-28 15:23:49,940 models 16924 -1229182096 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 15:23:50,099 models 16924 -1229182096 [{'date': datetime.date(2011, 12, 27)}, {'date': datetime.date(2011, 12, 26)}]
+INFO 2011-12-28 15:23:50,349 views 16924 -1229182096 []
+INFO 2011-12-28 15:25:44,380 models 16937 -1228960912 []
+INFO 2011-12-28 15:25:44,410 models 16937 -1228960912 []
+INFO 2011-12-28 15:25:44,470 views 16937 -1228960912 []
+INFO 2011-12-28 15:26:28,490 models 16937 -1228960912 []
+INFO 2011-12-28 15:26:28,519 models 16937 -1228960912 []
+INFO 2011-12-28 15:26:28,579 views 16937 -1228960912 []
+INFO 2011-12-28 15:26:39,490 models 16937 -1228960912 []
+INFO 2011-12-28 15:26:39,509 models 16937 -1228960912 []
+INFO 2011-12-28 15:26:39,690 views 16937 -1228960912 []
+INFO 2011-12-28 15:27:33,440 models 16986 -1229706384 []
+INFO 2011-12-28 15:27:33,460 models 16986 -1229706384 []
+INFO 2011-12-28 15:27:33,519 views 16986 -1229706384 []
+INFO 2011-12-28 15:28:25,200 models 16986 -1229706384 []
+INFO 2011-12-28 15:28:25,230 models 16986 -1229706384 []
+INFO 2011-12-28 15:28:25,289 views 16986 -1229706384 []
+INFO 2011-12-28 15:28:47,690 models 16986 -1229706384 []
+INFO 2011-12-28 15:28:47,720 models 16986 -1229706384 []
+INFO 2011-12-28 15:28:47,779 views 16986 -1229706384 []
+INFO 2011-12-28 15:28:51,970 models 16986 -1229706384 []
+INFO 2011-12-28 15:28:52,019 models 16986 -1229706384 []
+INFO 2011-12-28 15:28:52,089 views 16986 -1229706384 [{'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u571f\u8c46\u70e7\u8169\u8089\u996d', 'price': 9.0, 'restaurant': u'\u84b8\u4e4b\u5473tel:85665753', 'pk': 238L}]
+INFO 2011-12-28 15:28:58,730 models 16986 -1229706384 []
+INFO 2011-12-28 15:28:58,759 models 16986 -1229706384 [{'date': datetime.date(2011, 12, 25)}]
+INFO 2011-12-28 15:29:08,500 models 16986 -1229706384 []
+INFO 2011-12-28 15:29:08,529 models 16986 -1229706384 []
+INFO 2011-12-28 15:29:08,599 views 16986 -1229706384 []
+INFO 2011-12-28 15:29:10,779 models 16986 -1229706384 []
+INFO 2011-12-28 15:29:10,809 models 16986 -1229706384 []
+INFO 2011-12-28 15:29:10,880 views 16986 -1229706384 []
+INFO 2011-12-28 15:29:20,859 models 16986 -1229706384 []
+INFO 2011-12-28 15:29:20,890 models 16986 -1229706384 []
+INFO 2011-12-28 15:29:20,970 views 16986 -1229706384 []
+INFO 2011-12-28 15:29:28,619 models 16986 -1229706384 []
+INFO 2011-12-28 15:29:28,650 models 16986 -1229706384 []
+INFO 2011-12-28 15:29:28,730 views 16986 -1229706384 []
+INFO 2011-12-28 15:29:30,960 models 16986 -1229706384 []
+INFO 2011-12-28 15:29:30,990 models 16986 -1229706384 []
+INFO 2011-12-28 15:29:31,069 views 16986 -1229706384 [{'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u83dc\u82b1\u7092\u54b8\u8089\u996d', 'price': 9.0, 'restaurant': u'\u84b8\u4e4b\u5473tel:85665753', 'pk': 237L}]
+INFO 2011-12-28 15:29:35,960 models 16986 -1229706384 [{'date': datetime.date(2011, 12, 25)}]
+INFO 2011-12-28 15:29:36,069 models 16986 -1229706384 []
+INFO 2011-12-28 15:29:36,140 views 16986 -1229706384 []
+INFO 2011-12-28 15:33:11,160 models 17060 -1228846224 []
+INFO 2011-12-28 15:33:11,180 models 17060 -1228846224 []
+INFO 2011-12-28 15:33:11,220 views 17060 -1228846224 []
+INFO 2011-12-28 15:33:16,740 models 17060 -1228846224 []
+INFO 2011-12-28 15:33:16,779 models 17060 -1228846224 []
+INFO 2011-12-28 15:33:16,849 views 17060 -1228846224 [{'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u83dc\u82b1\u7092\u54b8\u8089\u996d', 'price': 9.0, 'restaurant': u'\u84b8\u4e4b\u5473tel:85665753', 'pk': 240L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u571f\u8c46\u70e7\u8169\u8089\u996d', 'price': 9.0, 'restaurant': u'\u84b8\u4e4b\u5473tel:85665753', 'pk': 239L}]
+INFO 2011-12-28 15:33:30,579 models 17060 -1228846224 [{'date': datetime.date(2011, 12, 27)}]
+INFO 2011-12-28 15:33:30,670 models 17060 -1228846224 []
+INFO 2011-12-28 15:33:30,779 views 17060 -1228846224 []
+INFO 2011-12-28 15:34:35,910 models 17060 -1228846224 []
+INFO 2011-12-28 15:34:35,940 models 17060 -1228846224 []
+INFO 2011-12-28 15:34:36,000 views 17060 -1228846224 []
+INFO 2011-12-28 15:34:49,579 models 17060 -1228846224 []
+INFO 2011-12-28 15:34:49,599 models 17060 -1228846224 []
+INFO 2011-12-28 15:34:49,680 views 17060 -1228846224 [{'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u9999\u83c7\u7116\u9c7c\u7403\u996d', 'price': 9.0, 'restaurant': u'\u84b8\u4e4b\u5473tel:85665753', 'pk': 241L}]
+INFO 2011-12-28 15:34:54,890 models 17060 -1228846224 []
+INFO 2011-12-28 15:34:54,940 models 17060 -1228846224 [{'date': datetime.date(2011, 12, 27)}]
+INFO 2011-12-28 15:37:51,609 models 17112 -1228178576 []
+INFO 2011-12-28 15:37:51,640 models 17112 -1228178576 []
+INFO 2011-12-28 15:37:51,690 views 17112 -1228178576 []
+INFO 2011-12-28 15:38:42,450 models 17112 -1228178576 []
+INFO 2011-12-28 15:38:42,480 models 17112 -1228178576 []
+INFO 2011-12-28 15:38:42,539 views 17112 -1228178576 [{'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u571f\u8c46\u70e7\u8169\u8089\u996d', 'price': 9.0, 'restaurant': u'\u84b8\u4e4b\u5473tel:85665753', 'pk': 242L}]
+INFO 2011-12-28 15:38:47,940 models 17112 -1228178576 []
+INFO 2011-12-28 15:38:47,960 models 17112 -1228178576 [{'date': datetime.date(2011, 12, 27)}]
+INFO 2011-12-28 15:38:48,089 views 17112 -1228178576 []
+INFO 2011-12-28 15:40:31,839 models 17112 -1228178576 []
+INFO 2011-12-28 15:40:31,859 models 17112 -1228178576 []
+INFO 2011-12-28 15:40:31,970 views 17112 -1228178576 [{'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u5241\u6912\u9c7c\u8169\u996d', 'price': 10.0, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 243L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u9ed1\u6912\u725b\u67f3\u996d', 'price': 15.0, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 244L}]
+INFO 2011-12-28 15:40:37,720 models 17112 -1228178576 [{'date': datetime.date(2011, 12, 27)}]
+INFO 2011-12-28 15:40:37,799 models 17112 -1228178576 []
+INFO 2011-12-28 15:40:37,859 views 17112 -1228178576 []
+INFO 2011-12-28 16:44:57,920 views 17440 -1229567120 False
+INFO 2011-12-28 16:44:59,140 views 17440 -1229567120 False
+INFO 2011-12-28 16:45:18,490 views 17445 -1228219536 <QueryDict: {u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:45:20,339 views 17445 -1228219536 <QueryDict: {u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:46:35,259 views 17445 -1228219536 <QueryDict: {u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:47:36,670 views 17445 -1228219536 <QueryDict: {u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:47:48,029 views 17445 -1228219536 <QueryDict: {u'date': [u'2011-12-28'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b'], u'Wdate': [u'2011-12-22']}>
+INFO 2011-12-28 16:48:32,170 views 17445 -1228219536 <QueryDict: {u'date': [u'2011-12-28'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b'], u'Wdate': [u'2011-12-22']}>
+INFO 2011-12-28 16:48:33,700 views 17445 -1228219536 <QueryDict: {u'date': [u'2011-12-28'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b'], u'Wdate': [u'2011-12-22']}>
+INFO 2011-12-28 16:48:37,819 views 17445 -1228219536 <QueryDict: {u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:48:39,390 views 17445 -1228219536 <QueryDict: {u'date': [u'2011-12-28'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:51:27,940 views 17497 -1228563600 <QueryDict: {u'date': [u'2011-12-28'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:51:33,259 views 17497 -1228563600 <QueryDict: {u'date': [u'2011-12-07'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:51:37,230 views 17497 -1228563600 <QueryDict: {u'date': [u'2011-12-05'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:51:40,200 views 17497 -1228563600 <QueryDict: {u'date': [u'2011-12-23'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:52:22,069 views 17504 -1227904144 <QueryDict: {u'date': [u'2011-12-23'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:52:28,009 views 17504 -1227904144 <QueryDict: {u'date': [u'2011-12-28'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:52:29,190 views 17504 -1227904144 <QueryDict: {u'date': [u'2011-12-28'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:52:47,000 views 17510 -1229272208 <QueryDict: {u'date': [u'2011-12-28'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:52:48,339 views 17510 -1229272208 <QueryDict: {u'date': [u'2011-12-28'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:52:51,980 views 17510 -1229272208 <QueryDict: {u'date': [u'2011-12-14'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:52:57,589 views 17510 -1229272208 <QueryDict: {u'date': [u'2011-12-28'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:53:24,359 views 17510 -1229272208 <QueryDict: {u'date': [u'2011-12-28'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:53:30,690 views 17510 -1229272208 <QueryDict: {u'date': [u'2011-12-01'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:53:41,849 views 17510 -1229272208 <QueryDict: {u'date': [u'2011-12-01'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:53:44,619 views 17510 -1229272208 <QueryDict: {u'date': [u'2011-12-28'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:55:37,740 models 17510 -1229272208 []
+INFO 2011-12-28 16:55:37,769 models 17510 -1229272208 []
+INFO 2011-12-28 16:55:37,819 views 17510 -1229272208 []
+INFO 2011-12-28 16:55:42,779 models 17510 -1229272208 []
+INFO 2011-12-28 16:55:42,809 models 17510 -1229272208 []
+INFO 2011-12-28 16:55:42,880 views 17510 -1229272208 [{'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u83dc\u82b1\u7092\u54b8\u8089\u996d', 'price': 9.0, 'restaurant': u'\u84b8\u4e4b\u5473tel:85665753', 'pk': 245L}, {'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u9999\u83c7\u7116\u9c7c\u7403\u996d', 'price': 9.0, 'restaurant': u'\u84b8\u4e4b\u5473tel:85665753', 'pk': 246L}]
+INFO 2011-12-28 16:56:07,269 models 17510 -1229272208 []
+INFO 2011-12-28 16:56:07,289 models 17510 -1229272208 [{'date': datetime.date(2011, 12, 1)}]
+INFO 2011-12-28 16:56:07,420 views 17510 -1229272208 []
+INFO 2011-12-28 16:56:14,099 views 17510 -1229272208 <QueryDict: {u'date': [u'2011-12-28'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:56:44,720 models 17510 -1229272208 []
+INFO 2011-12-28 16:56:44,750 models 17510 -1229272208 []
+INFO 2011-12-28 16:56:44,799 views 17510 -1229272208 [{'username': u'\u5468\u51ef\u534e1', 'status': u'b', 'remark': u'', 'food_name': u'\u5241\u6912\u9c7c\u8169\u996d', 'price': 10.0, 'restaurant': u'\u771f\u81b3\u574atel:020-85660493', 'pk': 247L}]
+INFO 2011-12-28 16:56:51,569 models 17510 -1229272208 [{'date': datetime.date(2011, 12, 1)}]
+INFO 2011-12-28 16:56:51,640 models 17510 -1229272208 []
+INFO 2011-12-28 16:56:51,690 views 17510 -1229272208 []
+INFO 2011-12-28 16:56:54,750 views 17510 -1229272208 <QueryDict: {u'date': [u'2011-12-28'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-28 16:58:23,630 views 17551 -1228489872 <QueryDict: {u'date': [u'2011-12-28'], u'csrfmiddlewaretoken': [u'2de24ddcde55e97544288a626dea499b']}>
+INFO 2011-12-29 10:50:09,490 models 15997 -1229255824 []
+INFO 2011-12-29 10:50:09,589 models 15997 -1229255824 []
+INFO 2011-12-29 10:50:34,890 models 15997 -1229255824 []
+INFO 2011-12-29 10:50:34,910 models 15997 -1229255824 []
+INFO 2011-12-29 10:51:23,589 models 15997 -1229255824 []
+INFO 2011-12-29 10:51:23,609 models 15997 -1229255824 []
+INFO 2011-12-29 12:20:58,769 models 16344 -1228354704 []
+INFO 2011-12-29 12:20:58,819 models 16344 -1228354704 []
+INFO 2011-12-29 12:21:00,369 models 16344 -1228354704 []
+INFO 2011-12-29 12:21:00,400 models 16344 -1228354704 []
+INFO 2011-12-29 12:21:03,200 models 16344 -1228354704 []
+INFO 2011-12-29 12:21:03,240 models 16344 -1228354704 []
+INFO 2011-12-29 12:22:19,779 models 16344 -1228354704 []
+INFO 2011-12-29 12:22:19,809 models 16344 -1228354704 []
+INFO 2011-12-29 12:22:42,630 models 16344 -1228354704 []
+INFO 2011-12-29 12:22:42,650 models 16344 -1228354704 []
+INFO 2011-12-29 12:26:26,410 models 16394 -1228481680 []
+INFO 2011-12-29 12:26:26,430 models 16394 -1228481680 []
+INFO 2011-12-29 12:26:28,700 models 16394 -1228481680 []
+INFO 2011-12-29 12:26:28,720 models 16394 -1228481680 []
+INFO 2011-12-29 12:26:31,200 models 16394 -1228481680 []
+INFO 2011-12-29 12:26:31,220 models 16394 -1228481680 []
+INFO 2011-12-29 12:26:33,400 models 16394 -1228481680 []
+INFO 2011-12-29 12:26:33,420 models 16394 -1228481680 []
+INFO 2011-12-30 11:10:51,160 models 16466 -1228903568 []
+INFO 2011-12-30 11:10:51,190 models 16466 -1228903568 []
+INFO 2011-12-30 11:10:58,569 models 16466 -1228903568 [{'date': datetime.date(2011, 12, 30)}]
+INFO 2011-12-30 11:10:58,710 models 16466 -1228903568 []
+INFO 2011-12-30 11:12:23,549 models 16478 -1229272208 2011-12-30 11:12:23.540000
+INFO 2011-12-30 11:12:23,549 models 16478 -1229272208 2011-11-30 11:12:23.540000
+INFO 2011-12-30 11:12:23,559 models 16478 -1229272208 []
+INFO 2011-12-30 11:12:23,589 models 16478 -1229272208 2011-12-30 11:12:23.580000
+INFO 2011-12-30 11:12:23,589 models 16478 -1229272208 2011-11-30 11:12:23.580000
+INFO 2011-12-30 11:12:23,589 models 16478 -1229272208 []
+INFO 2011-12-30 11:12:50,069 models 16478 -1229272208 2011-12-30 11:12:50.070000
+INFO 2011-12-30 11:12:50,079 models 16478 -1229272208 2011-11-30 11:12:50.070000
+INFO 2011-12-30 11:12:50,079 models 16478 -1229272208 [{'date': datetime.date(2011, 12, 30)}]
+INFO 2011-12-30 11:12:50,200 models 16478 -1229272208 2011-12-30 11:12:50.190000
+INFO 2011-12-30 11:12:50,200 models 16478 -1229272208 2011-11-30 11:12:50.190000
+INFO 2011-12-30 11:12:50,200 models 16478 -1229272208 []
+INFO 2011-12-30 11:19:04,490 models 16532 -1229927568 2011-12-30
+INFO 2011-12-30 11:19:04,490 models 16532 -1229927568 2011-11-30
+INFO 2011-12-30 11:19:04,490 models 16532 -1229927568 []
+INFO 2011-12-30 11:19:16,279 models 16532 -1229927568 2011-12-30
+INFO 2011-12-30 11:19:16,279 models 16532 -1229927568 2011-11-30
+INFO 2011-12-30 11:19:16,279 models 16532 -1229927568 []
+INFO 2011-12-30 11:19:31,970 models 16532 -1229927568 2011-12-30
+INFO 2011-12-30 11:19:31,970 models 16532 -1229927568 2011-11-30
+INFO 2011-12-30 11:19:31,980 models 16532 -1229927568 []
+INFO 2011-12-30 11:19:33,240 models 16532 -1229927568 2011-12-30
+INFO 2011-12-30 11:19:33,240 models 16532 -1229927568 2011-11-30
+INFO 2011-12-30 11:19:33,240 models 16532 -1229927568 []
+INFO 2011-12-30 11:21:26,839 models 16566 -1228772496 2011-12-30
+INFO 2011-12-30 11:21:26,839 models 16566 -1228772496 2011-11-30
+INFO 2011-12-30 11:21:26,839 models 16566 -1228772496 []
+INFO 2011-12-30 11:21:26,859 models 16566 -1228772496 2011-12-30
+INFO 2011-12-30 11:21:26,869 models 16566 -1228772496 2011-11-30
+INFO 2011-12-30 11:21:26,869 models 16566 -1228772496 []
+INFO 2011-12-30 11:21:32,670 models 16566 -1228772496 2011-12-30
+INFO 2011-12-30 11:21:32,680 models 16566 -1228772496 2011-11-30
+INFO 2011-12-30 11:21:32,680 models 16566 -1228772496 [{'date': datetime.date(2011, 12, 30)}]
+INFO 2011-12-30 11:21:32,740 models 16566 -1228772496 2011-12-30
+INFO 2011-12-30 11:21:32,740 models 16566 -1228772496 2011-11-30
+INFO 2011-12-30 11:21:32,740 models 16566 -1228772496 []
+INFO 2011-12-30 11:23:15,269 models 16591 -1229165712 2011-12-29
+INFO 2011-12-30 11:23:15,269 models 16591 -1229165712 2011-11-29
+INFO 2011-12-30 11:23:15,279 models 16591 -1229165712 []
+INFO 2011-12-30 11:23:15,299 models 16591 -1229165712 2011-12-29
+INFO 2011-12-30 11:23:15,299 models 16591 -1229165712 2011-11-29
+INFO 2011-12-30 11:23:15,299 models 16591 -1229165712 []
+INFO 2011-12-30 11:23:18,450 models 16591 -1229165712 2011-12-29
+INFO 2011-12-30 11:23:18,450 models 16591 -1229165712 2011-11-29
+INFO 2011-12-30 11:23:18,460 models 16591 -1229165712 []
+INFO 2011-12-30 11:23:18,480 models 16591 -1229165712 2011-12-29
+INFO 2011-12-30 11:23:18,480 models 16591 -1229165712 2011-11-29
+INFO 2011-12-30 11:23:18,480 models 16591 -1229165712 []
+INFO 2011-12-30 11:23:53,009 models 16591 -1229165712 2011-12-29
+INFO 2011-12-30 11:23:53,009 models 16591 -1229165712 2011-11-29
+INFO 2011-12-30 11:23:53,019 models 16591 -1229165712 []
+INFO 2011-12-30 11:23:53,049 models 16591 -1229165712 2011-12-29
+INFO 2011-12-30 11:23:53,049 models 16591 -1229165712 2011-11-29
+INFO 2011-12-30 11:23:53,049 models 16591 -1229165712 []
+INFO 2011-12-30 11:23:57,480 models 16591 -1229165712 2011-12-29
+INFO 2011-12-30 11:23:57,490 models 16591 -1229165712 2011-11-29
+INFO 2011-12-30 11:23:57,490 models 16591 -1229165712 []
+INFO 2011-12-30 11:23:57,509 models 16591 -1229165712 2011-12-29
+INFO 2011-12-30 11:23:57,509 models 16591 -1229165712 2011-11-29
+INFO 2011-12-30 11:23:57,509 models 16591 -1229165712 []
+INFO 2011-12-30 11:24:02,920 models 16591 -1229165712 2011-12-29
+INFO 2011-12-30 11:24:02,920 models 16591 -1229165712 2011-11-29
+INFO 2011-12-30 11:24:02,920 models 16591 -1229165712 []
+INFO 2011-12-30 11:24:02,940 models 16591 -1229165712 2011-12-29
+INFO 2011-12-30 11:24:02,940 models 16591 -1229165712 2011-11-29
+INFO 2011-12-30 11:24:02,950 models 16591 -1229165712 []
+INFO 2011-12-30 11:24:51,130 models 16591 -1229165712 2011-12-29
+INFO 2011-12-30 11:24:51,140 models 16591 -1229165712 2011-11-29
+INFO 2011-12-30 11:24:51,140 models 16591 -1229165712 []
+INFO 2011-12-30 11:24:51,160 models 16591 -1229165712 2011-12-29
+INFO 2011-12-30 11:24:51,160 models 16591 -1229165712 2011-11-29
+INFO 2011-12-30 11:24:51,170 models 16591 -1229165712 []
