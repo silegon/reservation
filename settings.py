@@ -63,7 +63,7 @@ STATIC_ROOT = os.path.join(PROJECT_DIR, 'static/')
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = 'http://192.168.1.66:8000/static/'
+STATIC_URL = 'http://127.0.0.1:28000/static/'
 
 # URL prefix for admin static files -- CSS, JavaScript and images.
 # Make sure to use a trailing slash.
@@ -154,7 +154,7 @@ LOGGING = {
         'file':{
                 'level':'DEBUG',
                 'class':'logging.FileHandler',
-                'filename':'/home/silegon/website/reservation/temp.log',
+                'filename':'temp.log',
                 'mode':'a',
                 'encoding':'utf8',
                 'formatter': 'verbose',
