@@ -191,16 +191,16 @@ class OrderManager(models.Manager):
 
 class Order(models.Model):
 
-    ORDER_CHARACTER = {
+    ORDER_CHARACTER = (
         ('l','中餐'), #Lunch
         ('d','晚餐'), #Dinner
-    }
-    ORDER_STATUS = {
+    ) 
+    ORDER_STATUS = (
         ('b','预订'), #Book
         ('c','确认'), #Confirm
         ('f','完成'), #Finish
         ('a','取消'), #cAncle
-    }
+    ) 
 
     username = models.ForeignKey('Account',db_index=True, on_delete=models.PROTECT, verbose_name="用户名")
     restaurant = models.ForeignKey('Restaurant', on_delete=models.PROTECT, verbose_name="餐馆名")
