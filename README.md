@@ -20,7 +20,7 @@ chrome下基本能用，未完成css兼容和js兼容。
 * 修改参数 
     修改settings.py中的数据库参数。
     修改"STATIC_URL"为正确的完整地址。
-    PS:调试模式下相对虽然在html页面显示是一样的，但是Django自带静态文件会服务会不正常。
+    PS:Django 自带测试服务器模式下相对路径虽然在html页面显示是一样的，但是Django自带静态文件会服务会不正常。
 
 * mysql数据库中添加相关数据库
     create database reservation
